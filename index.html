@@ -294,7 +294,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     About Us
                 </h5>
                 <p class="py-5 px-5 lg:px-0 mb-5 text-center lg:text-left  lg:text-xl">
-                T.L.C. Home & Commercial Services provides power washing, painting & staining, landscape design and deck restoration services in Roanoke, Virginia and surrounding areas. We pride ourselves on providing quality service based on our many years of experience. Let us help you show your property and your budget some love. <br><br><b> Our Goal: </b> To beautify the world one property at a time and help the world one customer at a time!<br><br><b> Our Top Services: </b> Power Washing and Landscaping Design Services <br><br><b> Contact Us: </b> Phone: (540) 206-9177 || Email: TLCestimates@gmail.com
+                T.L.C. Home & Commercial Services provides power washing, painting & staining, landscape design and deck restoration services in Roanoke, Virginia and surrounding areas. We pride ourselves on providing quality service based on our many years of experience. Let us help you show your property and your budget some love. <br><br><b> Our Goal: </b> To beautify the world one property at a time and help the world one customer at a time!<br><br><b> Our Top Services: </b> Power Washing and Landscaping Design Services <br><br><b> Payment Accepted: </b> Check, Cash, Credit Card, Debit Card, PayPal or Cash App<br><br><b> Contact Us: </b> Phone: (540) 206-9177 || Email: TLCestimates@gmail.com
                 </p>                
             </div>
 
@@ -441,10 +441,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
                         
                         <div  class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
-                            <h3  style= "color:#000000"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">Landscape Design</h3>
+                            <h3  style= "color:#000000"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">Painting & Staining</h3>
                             <p
                                 class="box-border mx-0 mt-3 mb-0 font-normal leading-snug text-center border-solid">
-                                We can give you ideas on how to create maintenance free, beautiful outdoor designs. From switching mulch beds to rock beds to other landscape redesigns, we have your property covered with our local landscaping design services. We do both the landscape design and implementation. 
+                                From concrete to wood and more we can make your property look top notch with a fresh coating of stain or paint. We offer a variety of custom designs to bring your dreams to life. 
                             </p>
                         </div>
                     </div>
@@ -454,10 +454,10 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     <div class="box-border flex flex-col items-center  h-full px-2 py-4 md:py-8 mx-4 leading-6 text-center border-solid ">
                         
                         <div  class="md:mt-6 font-sans text-center border-0 border-gray-200 ">
-                            <h3  style= "color:#000000"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">Painting & Staining</h3>
+                            <h3  style= "color:#000000"  class="box-border text-xl font-bold leading-none tracking-wider border-solid text-gray-400  ">Landscape Design</h3>
                             <p
                                 class="box-border mx-0 mt-3 mb-0 font-normal leading-snug text-center border-solid">
-                                From concrete to wood and more we can make your property look top notch with a fresh coating of stain or paint. We offer a variety of custom designs to bring your dreams to life. 
+                                We can give you ideas on how to create maintenance free, beautiful outdoor designs. From switching mulch beds to rock beds to other landscape redesigns, we have your property covered with our local landscaping design services. We do both the landscape design and implementation. 
                             </p>
                         </div>
                     </div>
@@ -856,6 +856,31 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     x-transition:leave-end="opacity-0 transform -translate-y-4"
                     x-show="show"
                     x-cloak>The best way to get in touch is to call or text (540) 206-9177. You can also email us at TLCestmiates@gmail.com. We provide personal attention to every customer.</p>
+            </div>
+
+        
+
+            <!-- Question 1 -->
+            <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
+                <h3  
+                onMouseOver="this.style.color='#000000' "
+                onMouseOut=" this.style.color='#3fbffe'"
+                style="color:#3fbffe;"               
+                
+                                 
+                @click="show=!show" class=" text-center flex items-center justify-between px-2 text-xl font-medium text-gray-900  cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-400  lg:text-left">
+                    <span class = "flex text-left lg:text-left">What forms of payment do you accept?</span>
+                    <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </h3>
+                <p  style= "color:#3fbffe"  class="px-2 pt-0 -mt-2  sm:text-lg py-7 text-gray-900 text-center lg:text-left"
+                    x-transition:enter="transition-all ease-out duration-300"
+                    x-transition:enter-start="opacity-0 transform -translate-y-4"
+                    x-transition:enter-end="opacity-100 transform -translate-y-0"
+                    x-transition:leave="transition-all ease-in duration-300"
+                    x-transition:leave-start="opacity-100 transform -translate-y-0"
+                    x-transition:leave-end="opacity-0 transform -translate-y-4"
+                    x-show="show"
+                    x-cloak>We accept Check, Cash, Credit Card, Debit Card, PayPal or Cash App.<br></p>
             </div>
 
         
